@@ -1,0 +1,70 @@
+sudo iwlist wlan0 scanning
+sudo chown -R nima 
+rm -rf .git
+fdisk -l
+sudo foremost -t jpg -i /dev/hda -o /recovery/foremost
+ntfsundelete /dev/sda2 -u -i 3689 -o work.doc -d ~/output
+sudo mkdir -m 0777 /var/guest-data
+sudo passwd ni-mac
+
+vim
+	set number
+ 	filetype plugin on
+ 	set autoindent
+ 	set cindent
+
+modprobe uvcvideo to enable cam
+modprobe -r //      //  disable //
+
+	convert '*.jpg[120x120]' thumbnail%03d.png
+
+	find /tmp/p/ -name "DSC*.JPG" | while read file; do
+  	convert "$file" -rotate 90 "$file"_rotated.JPG
+	done
+
+
+database app:
+	wireshark
+	nmap
+	xprobe
+
+
+duplic image:
+	digikam
+
+ten fin type:
+	ktouch
+	klavaro
+
+piano:
+	vmpk
+	drumstick
+	piano booster
+
+
+fadaei 1857110
+
+make boot disk
+	sudo dd if=sourceFileName.iso of=/dev/sd*
+
+
+
+sudo bmon
+sudo nethog eth0-wlan0
+
+18:f6:43:d2:62:fa
+
+
+vlc : 
+
+	sudo apt-get build-dep vlc
+	
+	sudo apt-get -y install gstreamer0.10-pitfdll gstreamer0.10-ffmpeg gstreamer0.10-plugins-bad gstreamer0.10-plugins-bad-multiverse gstreamer0.10-plugins-ugly gstreamer0.10-plugins-ugly-multiverse
+
+	sudo apt-get install libavcodec54 libav-tools ffmpeg
+
+	sudo apt-get install gstreamer1.0-libav gstreamer0.10-ffmpeg 
+
+	Flashplugin-installer gstreamer-ffmpeg gstreamer-pitfdll gstreamer-plugins-bad gstreamer-plugins-bad-multiverse gstreamer-plugins-ugly gstreamer-plugins-ugly-multivers icedtea6-plugin libavcodec-extra-52 libmp4v2-0 ttf-mscorefonts-installer
+
+CND813170Z
